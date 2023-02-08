@@ -1,0 +1,21 @@
+<% web = "
+  -f pretty
+  -f html -o test.html
+  --publish
+"%>
+
+firefox: >
+  BROWSER=firefox
+  <%= web %>
+
+chrome: >
+  BROWSER=chrome
+  <%= web %>
+
+safari: >
+  BROWSER=chrome
+  <%= web %>
+
+edge: >
+  BROWSER=chrome
+  <%= web %>

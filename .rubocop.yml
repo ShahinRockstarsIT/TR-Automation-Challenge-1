@@ -1,0 +1,22 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.6
+Security/JSONLoad:
+  Enabled: false
+Metrics/LineLength:
+  Max: 125
+Metrics/MethodLength:
+  Max: 20
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+Layout/IndentationWidth:
+  Width: 2
+Layout/AssignmentIndentation:
+  IndentationWidth: 2
+Metrics/BlockLength:
+  Exclude:
+    - "features/support/env.rb"
+Style/GlobalVars:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
