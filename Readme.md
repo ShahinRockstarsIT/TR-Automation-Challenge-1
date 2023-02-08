@@ -1,6 +1,6 @@
-# UIChallenge
+# Challenge
 
-UI Tests are written in Ruby, using Cucumber for defining the test scenarios and Watir for automating the tests.
+Written in Ruby, using Cucumber and Watir
 
 ___
 
