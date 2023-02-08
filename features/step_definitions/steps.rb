@@ -9,7 +9,7 @@ Given(/I click on the "([^"]*)" language/) do |lang|
   $browser.div(text: lang).click
 end
 
-And(/Then I start playing/) do
+Then(/I start playing/) do
   9999.times do
     $browser.button(id: 'bigCookie').click
     upgrade_if_possible
